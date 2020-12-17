@@ -12,7 +12,7 @@ step 3:
 
             git clone     https://github.com/rami3877/.vimrc.git && cd .vimrc && mv .vimrc ~/
             
-step 4 :
+step 4 : 
 
          vim ~/.vimrc
          :w
