@@ -16,5 +16,6 @@ step 4 :
 
          vim ~/.vimrc
          :w
-         :source % 
+         :source %
+         :PluginInstall
 
