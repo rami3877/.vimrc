@@ -1,20 +1,12 @@
-	syntax on
-	set nobackup
-	set nu
-	set nocompatible
-	call plug#begin('~/.vim/plugged/')
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-	Plug 'sheerun/vim-polyglot'
-	call plug#end()
+set nocompatible            
+syntax on
+set encoding=utf-8 
+filetype plugin on
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'zxqfl/tabnine-vim'
 
 
-	function! SetupCommandAbbrs(from, to)
-  exec 'cnoreabbrev <expr> '.a:from
-        \ .' ((getcmdtype() ==# ":" && getcmdline() ==# "'.a:from.'")'
-        \ .'? ("'.a:to.'") : ("'.a:from.'"))'
-endfunction
-
-" Use C to open coc config
-call SetupCommandAbbrs('C', 'CocConfig')
+call vundle#end()           
+filetype plugin indent on
 
