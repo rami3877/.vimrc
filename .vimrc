@@ -5,7 +5,7 @@ filetype plugin on
 set noshowmode
 set hlsearch
 set incsearch
-"set nu
+set nu
 call plug#begin('~/.vim/plugg')
 Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
