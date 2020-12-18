@@ -6,7 +6,8 @@ The first step:
               
 step 2 : Check if .vim file exists  if not create it by mkdir ~/.vim 
  
-           git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim         
+          curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim     
 
 step 3:
 
