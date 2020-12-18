@@ -2,7 +2,7 @@ fast Settings vim for archlinux
 
 The first step:
 
-              sudo pacman -S vim  clang
+              sudo pacman -S vim  
               
 step 2 : Check if .vim file exists  if not create it by mkdir ~/.vim 
  
