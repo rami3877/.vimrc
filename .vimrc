@@ -3,7 +3,6 @@ syntax on
 set encoding=utf-8
 filetype plugin indent on
 set noshowmode
-set rtp+=~/.vim/bundle/Vundle.vim
 call plug#begin('~/.vim/plugg')
 Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline'
