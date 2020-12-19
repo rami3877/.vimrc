@@ -15,3 +15,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'lokaltog/vim-powerline'
 call plug#end()
 let g:airline_theme='light'
+nmap <c-z> <esc> 
+imap <c-z> <esc>
+vmap <c-z> <esc>
+omap <c-z> <esci>
