@@ -19,4 +19,6 @@ step 4 :
          :w
          :source %
          :PluginInstall
-
+# for change the format output of lexima.vim :
+          vim ~/.vim/plugged/lexima.vim/autoload
+          :39
