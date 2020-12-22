@@ -23,3 +23,5 @@ step 4 :
           :39
 # create a file to save histories :
           mkdir ~/.vim/undo
+# create a file to save Folding Text :
+          mkdir ~/.vim/view
