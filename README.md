@@ -19,7 +19,7 @@ step 4 :
          :source %
          :PluginInstall
 # for change the format output of lexima.vim :
-          vim ~/.vim/plugged/lexima.vim/autoload
+          vim ~/.vim/plugged/lexima.vim/autoload/lexima.vim
           :39
 # create a file to save histories :
           mkdir ~/.vim/undo
