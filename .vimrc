@@ -11,6 +11,7 @@ Plug 'szw/vim-tags'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/a.vim'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 "setting vim 
 set nocompatible
